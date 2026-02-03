@@ -1,0 +1,9 @@
+# build output
+*.o
+*.out
+*.exe
+can_service
+
+# editor files
+.vscode/
+.idea/
