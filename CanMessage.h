@@ -1,7 +1,9 @@
 # pragma once
-
+#include <optional>
 #include <array>
 #include <cstdint>
+#include <memory>
+#include <unordered_map>
 
 class CanMessage
 {
@@ -16,4 +18,4 @@ private:
     uint32_t canId_;
     uint8_t dlc_;
     std::array<uint8_t, 8> payload;
-}  // namespace CAN_Task
+}; // namespace CAN_Task
